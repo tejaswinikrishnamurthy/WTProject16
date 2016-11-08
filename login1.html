@@ -1,0 +1,64 @@
+<html>
+	<title>login</title>
+	<head>
+	<?php
+	session_start();
+	?>
+	<script>
+	<!--
+		function play()
+		{
+			
+			if(txt1.value=="")
+			{	alert("enter name");
+				return false;
+				
+			}
+			
+			 
+			else
+				window.location="WTproject2.php";
+				
+		}
+		
+		
+		
+		function init()
+		{
+			txt1=document.querySelector("#txt");
+			myform.onsubmit=play;
+		}
+		-->
+	</script>
+	<style>
+	<!--
+		.id1{border:3px solid #f1f1f1;position:absolute;top:90px;left:500px;bottom:90px;right:500px ;background-color:#f1f1f1}
+		.user{font-family:serif;font-size:1.9em;font-weight:900;color:brown}
+		.btn1{font-family:serif;font-size:1em;font-weight:900;color:red}
+		
+	-->
+	</style>
+	</head>
+	<body onload="init()">
+		<form class="id1" id="myform" action="login.php" method="post">
+		<div>
+		<center>
+		<br/><br/>
+		<img  width="50%" height="30%" src="IMG_1780.PNG" alt="photograph"/> </a> 
+		</center>
+		</div>
+		<div class="user">
+		<center>
+		<br/>
+		<label>PLAYER   </label><br/><br/>
+		<input type="text" name="player"  placeholder="Player name" id="txt"  value="" />
+		<br/> <br/>
+		<input type="submit" class="btn1" value="PLAY" />
+		<br/><br/></center>
+		</div>
+		</form>
+	</body>
+	</html>
+		
+		
+		

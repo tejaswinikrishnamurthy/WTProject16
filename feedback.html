@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<title> feedback</title>
+<style>
+.e{
+     font-style: italic;
+     font-size:75px;
+    font-family:verdana;
+    color:brown;}
+
+
+
+h1{ font-size:50 px;
+    font-family:verdana;
+     
+   }
+
+</style>
+<script>
+<!--
+	function init()
+	{
+	
+	f=document.getElementById("myform");
+	}
+	
+	function feed()
+	{
+	
+	f.submit();
+	window.location="thank.php";
+	}
+	
+-->
+</script>
+</head>
+<body style="background-image:url(feedback.jpg)" onload="init()">
+<h1 class="e"> <center> FEEDBACK </center> </h1>
+
+<form action="feedbak.php" method="post" id="myform">
+ 
+ 
+  <marquee behavior="alternate" direction="left"><h2>Click on the smiley's to give your feedback!!</h2></marquee>
+  <center><h1>EXCELLENT<input type="image" src="14093.gif" alt="Submit" name="fe"  value="excellent" width="55" height="55" onclick="feed()"></h1></center>
+  <center><h1>GOOD<input type="image" src="neww.png" alt="Submit" value="good" name="fe"width="55" height="55"onclick="feed()"></h1></center>
+  <center><h1>AVERAGE<input type="image" src="234.png" alt="Submit" width="55" name="fe" value="average" height="55"onclick="feed()"></h1></center>
+  <center><h1>BAD<input type="image" src="neww1.png" alt="Submit" value="bad" name="fe" width="55" height="55" onclick="feed()"></h1></center>
+</form>
+
+</body>
+</html>
